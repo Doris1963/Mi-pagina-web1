@@ -19,7 +19,7 @@
 
 /*inicio cabecera*/
 .cabecera {
-    background-color: aqua;
+    background-color: rgb(253, 221, 226);
     width: 100%;
     height: 70px;
     padding: 0 40px;
@@ -34,21 +34,22 @@
     align-items: center;
     text-decoration: none;
     color: black;
-    font-size: 90%;
+    font-size: 190%;
     margin-right: 10%;
+   
 }
 
 .cabecera-img {
     object-fit: cover;
-    height: 90%;
-    margin-top: 10px;
+    height: 80%;
+    margin-block-end: 0%;
 
 }
 
 /*fin cabecera*/
 /*lista de navegacion*/
 .navegacion {
-    background-color: rgb(204, 125, 22);
+    
     width: 100%;
     height: 60px;
     padding: 0 40px;
@@ -61,16 +62,16 @@
 
 .navegacion a {
     text-decoration: none;
-    color: rgb(238, 230, 230);
-    font-size: 10px;
+    color:rgb(22, 21, 21);
+    font-size: 18px;
     font-weight: 600;
     padding: 25px 50px;
-    background-color: rgb(160, 60, 110);
+    background-color: rgb(245, 209, 215);
 
 }
 
 .navegacion a:hover {
-    color: blueviolet;
+    color:rgb(37, 27, 29);
     background-color: antiquewhite;
 
 }
@@ -81,7 +82,7 @@
 /*inicio baner*/
 
 .banner {
-    background-image: url(../imag/banner.jpg);
+    background-image: url(../imag/banner2.jpg);
     background-position: center;
     width: 100%;
     height: 200%;
@@ -102,7 +103,7 @@
 }
 
 .banner a {
-    background-color: aqua;
+    background-color: rgb(229, 241, 241);
     width: 15%;
     height: 50px;
     border-radius: 20px;
@@ -118,7 +119,7 @@
 }
 
 .banner a:hover {
-    background-color: aquamarine;
+    background-color: rgb(234, 245, 241);
     color: aquamarine;
 }
 
@@ -126,7 +127,7 @@
 
 /*inicia seccion 2*/
 .seccion-2 {
-    background-color: rgb(233, 233, 187);
+    
     width: 100%;
     height: 100vh;
     display: flex;
@@ -168,8 +169,10 @@
     width: 100%;
     background-color: rgb(51, 241, 13);
     margin: 1% 0;
-
 }
+
+
+
 
 .izq-img img {
     object-fit: cover;
@@ -178,7 +181,8 @@
 }
 
 .izq-parrafo {
-    background-color: rgb(238, 228, 228);
+   
+    font-size: 18px;
 
 
 }
@@ -213,8 +217,12 @@
 .noticias-textos {
     font-size: 18px;
 }
-
-
+.noticias-textos h6{
+    font-size: 28px;
+}
+.noticias-textos h5{
+    font-size: 18px;
+}
 
 /*fin  seccion 2*/
 /*aqui inicia seccion 3*/
@@ -340,14 +348,14 @@
 }
 
 .mapa {
-    width: 100%;
+    width: 10%;
     height:10%;
 }
 
 
 .map iframe {
-    width: 100%;
-    height: 25%;
+    width: 2%;
+    height: 2%;
 
 
 }
@@ -367,12 +375,12 @@
 
 .form-div h3 {
     font-size: 20px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .form-div p {
     font-size: 18px;
-    padding: 20px 0;
+    padding: 10px 0;
 
 }
 
